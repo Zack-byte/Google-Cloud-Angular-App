@@ -10,4 +10,4 @@ Google Cloud API's used:
 - Cloud Build
 - Container Registry
 
-I've followed and got a more detail guide in my Brain-Extension [here](https://github.com/Zack-byte/Brain-Extension/blob/main/Programming/Google%20Cloud/App%20Engine/deploy-angular-app.md)
+I've followed and got a more detailed guide in my Brain-Extension [here](https://github.com/Zack-byte/Brain-Extension/blob/main/Programming/Google%20Cloud/App%20Engine/deploy-angular-app.md)
