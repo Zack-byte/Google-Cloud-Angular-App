@@ -1,0 +1,7 @@
+runtime: custom
+env: flex
+service: default
+threadsafe: true
+
+env_variables:
+  API_URL: "https://webapi-dev.appname.com"
