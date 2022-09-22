@@ -5,6 +5,6 @@ steps:
   args: ['push', 'us.gcr.io/$PROJECT_ID/angular-nginx-container']
 - name: gcr.io/cloud-builders/gcloud
   args: ['app', 'deploy', '--image-url', 'us.gcr.io/$PROJECT_ID/angular-nginx-container']
-  images: ['us.gcr.io/$PROJECT_ID/angular-nginx-container']
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: CLOUD_LOGGING_ONLY 
+images: ['us.gcr.io/$PROJECT_ID/angular-nginx-container']
