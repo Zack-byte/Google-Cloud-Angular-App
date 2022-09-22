@@ -1,21 +1,7 @@
-
-runtime: python27
-api_version: 1
-threadsafe: yes
-
-handlers:
-  - url: /
-    static_files: dist/user-dashboard-app/index.html
-    upload: dist/user-dashboard-app/index.html
-  - url: /
-    static_dir: dist/user-dashboard-app
-
-skip_files:
-  - e2e/
-  - node_modules/
-  - src/
-  - ^(.*/)?\..*$
-  - ^(.*/)?.*\.json$
-  - ^(.*/)?.*\.md$
-  - ^(.*/)?.*\.yaml$
-  - ^LICENSE
+runtime: custom
+env: flex
+service: default
+threadsafe: true
+webapi-dev.appname.com"
+env_variables:
+  API_URL: "https://
