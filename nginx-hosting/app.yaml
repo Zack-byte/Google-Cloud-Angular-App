@@ -2,6 +2,5 @@ runtime: custom
 env: flex
 service: default
 threadsafe: true
-webapi-dev.appname.com"
 env_variables:
-  API_URL: "https://
+  API_URL: "https://webapi-dev.appname.com"
