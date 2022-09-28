@@ -8,7 +8,7 @@ steps:
     [
       "app",
       "deploy",
-      "--image-url=gcr.io/${PROJECT_ID}/angular-nginx-container:${TAG_NAME}",
+      "--image-url=gcr.io/${PROJECT_ID}/angular-nginx-container",
     ]
 options:
   logging: CLOUD_LOGGING_ONLY
