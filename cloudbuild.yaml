@@ -4,7 +4,8 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'us.gcr.io/$PROJECT_ID/angular-nginx-container']
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['gcloud app deploy --image-url=us.gcr.io/$PROJECT_ID/angular-nginx-container']
+  entrypoint: 'bash'
+  args: ['gcloud app deploy']
 options:
   logging: CLOUD_LOGGING_ONLY
 images: ['us.gcr.io/$PROJECT_ID/angular-nginx-container']
