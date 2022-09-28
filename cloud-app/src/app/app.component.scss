@@ -50,7 +50,10 @@
   }
 
   .footer {
-    height: 17vh;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
     background: lightgrey;
+    width: 100%;
   }
 }
